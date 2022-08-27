@@ -1,0 +1,102 @@
+body {background-color: white; }
+
+.col-1 {height: 100px; display: flex; border-bottom: 2px solid #f2f2f2;}
+.col-1 .part-1{width: 50px; height: 100px; margin-top: -50px;}
+.col-1 .part-2 {display: block; justify-content: space-between; justify-content: center; height: 196px; margin-top: -10px; margin-left: 50px;}
+.col-1 .part-2 .sub-1{display: flex; margin-left: 80px; width: 100%;}
+.col-1 .part-2 button{color: red; margin-left: 600px; margin-top: 10px; border: 2px solid red; border-radius: 10px; background-color: white; width: 150px; height: 30px}
+.col-1 .part-2 .sub-2{display: flex; margin-left: 80px; border-top: 2px solid #f2f2f2;}
+.col-1 .part-2 .emojies{display: flex; margin-left: 560px;}
+
+.col-2{justify-content: center; display: flex; border-bottom: 2px solid #f2f2f2;}
+.col-2 button {background-color: #a50034; border: 2px solid #a50034; border-radius: 3px; color: white; width: 120px; height: 27px; margin-top: 10px; margin-left: 10px; }
+
+.col-4 {display: flex; justify-content: space-between; height: 600px;}
+.col-4 h2{text-align: center; margin-top: 460px; color: black;}
+.col-4 p{text-align: center; color: grey;}
+.col-4 a{text-decoration: none; color: #f2f2f2;;}
+.col-4 .part-1 {background-image: url('images/image-4.webp'); background-repeat: no-repeat; width: 24%; background-size: contain; background-position: center;  background-color: #ffffff; border-radius: 10px}
+.col-4 .part-2 {background-image: url('images/image-5.webp'); background-repeat: no-repeat; width: 24%; background-size: contain; background-position: center; background-color: #ffffff;border-radius: 10px}
+.col-4 .part-3 {background-image: url('images/image-6.webp'); background-repeat: no-repeat; width: 24%; background-size: contain; background-position: center; background-color: #ffffff;border-radius: 10px}
+.col-4 .part-4 {background-image: url('images/image-7.webp'); background-repeat: no-repeat; width: 24%; background-size: contain; background-position: center; background-color: #ffffff; border-radius: 10px}
+
+.col-5 {display: flex; justify-content: space-between; margin-top: 60px; height: 460px;}
+.col-5 h2{margin-top: 420px;}
+.col-5 a { text-decoration: none; color: black;}
+.col-5 .part-1 {background-image: url('images/image-8.webp'); background-repeat: no-repeat; width: 32.6%; background-size: contain; background-position: center;}
+.col-5 .part-2 {background-image: url('images/image-9.jpg'); background-repeat: no-repeat; width: 32.6%;  background-size: contain; background-position: center;}
+.col-5 .part-3 {background-image: url('images/image-10.jpg'); background-repeat: no-repeat; width: 32.6%;  background-size: contain; background-position: center;}
+
+.col-6 {display: flex; justify-content: space-between; margin-top: 60px; height: 460px;}
+.col-6 h2{margin-top: 420px;}
+.col-6 a { text-decoration: none; color: black;}
+.col-6 .part-1 {background-image: url('images/image-11.jpg'); background-repeat: no-repeat; width: 32.6%; background-size: contain; background-position: center;}
+.col-6 .part-2 {background-image: url('images/image-12.webp'); background-repeat: no-repeat; width: 32.6%;  background-size: contain; background-position: center;}
+.col-6 .part-3 {background-image: url('images/image-13.webp'); background-repeat: no-repeat; width: 32.6%;  background-size: contain; background-position: center;}
+
+.list-1 ul{display: flex; justify-content: center; margin-top: 80px; border-bottom:  2px solid #f2f2f2; }
+.list-1 li{margin-left: 20px; text-decoration: none; list-style: none; margin-bottom: 10px; font-family: sans-serif; color: grey;}
+.list-1 li:hover { color: black; border-bottom: 3px solid red;}
+
+.col-7 {display: flex; justify-content: space-between; height: 600px;}
+.col-7 p {margin-top: 500px;}
+.col-7 .emojies a{color: red; margin-left: 80px;}
+.col-7 a {text-align: center; color: black; text-decoration: none;}
+.col-7 .part-1 {background-image: url('images/image-14.webp'); background-repeat: no-repeat; width: 24%; background-size: contain; background-position: center;  background-color: #ffffff; border-radius: 10px}
+.col-7 .part-2 {background-image: url('images/image-15.webp'); background-repeat: no-repeat; width: 24%; background-size: contain; background-position: center; background-color: #ffffff;border-radius: 10px}
+.col-7 .part-3 {background-image: url('images/image-16.webp'); background-repeat: no-repeat; width: 24%; background-size: contain; background-position: center; background-color: #ffffff;border-radius: 10px}
+.col-7 .part-4 {background-image: url('images/image-18.webp'); background-repeat: no-repeat; width: 24%; background-size: contain; background-position: center; background-color: #ffffff; border-radius: 10px}
+
+.col-8 {display: flex; width: 100; justify-content: space-between; height: 700px;}
+.col-8 .part-1 h2{text-align: center; color: black; margin-top: 50px;}
+.col-8 .part-1 p{text-align: center; color: grey;}
+.col-8  a{text-decoration: none;}
+.col-8 .part-1{background-image: url('images/image-19.jpg'); width: 45%; margin-top: 2%; background-repeat: no-repeat; height: 99%; background-size: contain; background-position: center;}
+.col-8 .part-2 h2{color: black;}
+.col-8 .part-2{display: block; width: 54%;  justify-content: space-between; height: 99%;}
+.col-8 .part-2 .sub-1{background-image: url('images/image-20.webp'); height: 49.5%; background-size: contain; background-position: center;}
+.col-8 .part-2 .sub-2{background-image: url('images/image-21.webp'); height: 49.5%; background-size: contain; background-position: center;}
+
+.col-9{display: flex; margin-top: 50px; height: 200px; justify-content: space-between; background-color: white;}
+.col-9 a{text-decoration: none; color: black;}
+.col-9 h3{margin-top: 160px;}
+.col-9 .part-1{background-image: url('images/image-22.svg'); background-repeat: no-repeat; background-size: contain; background-position: center; height: 180px; margin-left: 300px;}
+.col-9 .part-2{background-image: url('images/image-23.webp'); background-repeat: no-repeat; background-size: contain; background-position: center; height: 180px; margin-right: 300px;}
+
+.col-10{}
+.col-10 .part-1 h2{text-align: center;}
+.col-10 .part-1 p{text-align: center;}
+.col-10 .part-2 {display: flex; justify-content: space-between; margin-right: 100px; margin-left: 100px;}
+.col-10 .part-2 a{text-decoration: none; color: grey;}
+.col-10 .part-2 p{margin-top: 90px;}
+.col-10 .part-2 .sub-1{background-image: url('images/image-24.webp'); background-repeat: no-repeat; background-size: contain; background-position: center; height: 100px;}
+.col-10 .part-2 .sub-2{background-image: url('images/image-25.webp'); background-repeat: no-repeat; background-size: contain; background-position: center; height: 100px;}
+.col-10 .part-2 .sub-3{background-image: url('images/image-26.webp'); background-repeat: no-repeat; background-size: contain; background-position: center; height: 100px;}
+.col-10 .part-2 .sub-4{background-image: url('images/image-27.webp'); background-repeat: no-repeat; background-size: contain; background-position: center; height: 100px;}
+.col-10 .part-2 .sub-5{background-image: url('images/image-28.webp'); background-repeat: no-repeat; background-size: contain; background-position: center; height: 100px;}
+
+.col-11{margin-top: 50px; background-color: white;}
+.col-11 .part-1 h2{text-align: center; margin-top: 50px;}
+.col-11 .part-1 p{text-align: center; color: grey;}
+.col-11 .part-2 {display: flex; justify-content: space-between; margin-top: 40px; margin-right: 90px; margin-left: 90px; background-color: white;}
+.col-11 .part-2 .sub-1 {background-image: url('images/image-29.webp'); background-repeat: no-repeat; background-size: contain; background-position: center; height: 100px;}
+.col-11 .part-2 .sub-2 {background-image: url('images/image-30.webp'); background-repeat: no-repeat; background-size: contain; background-position: center; height: 100px;}
+.col-11 .part-2 .sub-3 {background-image: url('images/image-31.svg'); background-repeat: no-repeat; background-size: contain; background-position: center; height: 100px;}
+.col-11 .part-2 h4{margin-top: 100px; text-align: center; color: black; }
+.col-11 .part-2 a{text-decoration: none;}
+.col-11 .part-2 p{text-align: center; color: grey;}
+
+.col-12{margin-top: 200px;}
+.col-12 .part-1{border-bottom: 0.5px solid grey;}
+.col-12 .part-1 p{font-size: 14px; text-align: center; color: grey;}
+.col-12 .part-2 {display: flex; justify-content: space-between; margin-right: 500px; margin-left: 20px; margin-top: 30px;}
+
+@media (max-width:768px) {
+	.col-1 {display: none;}
+	.mobile-view {display: flex;}
+}
+
+@media (max-width:1440px) {
+	.col-1 {display: flex;}
+	.mobile-view {display: ;}
+}
